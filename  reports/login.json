@@ -1,0 +1,115 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "   User navigates to Facebook Given \n   I am on Facebook login page ",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-09-21T08:48:16.295Z",
+        "line": 9,
+        "name": "",
+        "description": "",
+        "id": "annotation;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "I enter username as \"TOM\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I enter password as \"JERRY\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "Login should fail",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "   User navigates to Facebook Given \n   I am on Facebook login page ",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-09-21T08:48:16.364Z",
+        "line": 15,
+        "name": "",
+        "description": "",
+        "id": "annotation;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "I enter username as \"TOM\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "I enter password as \"JERRY\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "Login should fail",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1001600,
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "Relogin option should be available",
+            "match": {},
+            "keyword": "But "
+          }
+        ]
+      }
+    ],
+    "name": "annotation",
+    "description": "",
+    "id": "annotation",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/LoginTest.feature",
+    "tags": []
+  }
+]
